@@ -279,7 +279,7 @@ input[type=mobile], select, textarea {
   resize: vertical;
 }
 
-.button {
+input[type=submit] {
   display: inline-block;
   border-radius: 4px;
   background-color: #0aa5ff;
@@ -295,14 +295,14 @@ input[type=mobile], select, textarea {
   border-radius: 25px;
 }
 
-.button span {
+input[type=submit] span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.button span:after {
+input[type=submit] span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -311,11 +311,11 @@ input[type=mobile], select, textarea {
   transition: 0.5s;
 }
 
-.button:hover span {
+input[type=submit]:hover span {
   padding-right: 25px;
 }
 
-.button:hover span:after {
+input[type=submit]:hover span:after {
   opacity: 1;
   right: 0;
 }
