@@ -319,3 +319,11 @@ input[type=submit]:hover span:after {
   opacity: 1;
   right: 0;
 }
+
+.fcf-input-group1{
+  display:none;
+}
+
+.fcf-input-group2{
+  display:none;
+}
