@@ -320,10 +320,10 @@ input[type=submit]:hover span:after {
   right: 0;
 }
 
-.fcf-input-group1{
+.fcf-form-group1{
   display:none;
 }
 
-.fcf-input-group2{
+.fcf-form-group2{
   display:none;
 }
